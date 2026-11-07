@@ -1,0 +1,24 @@
+FINAL EMERGENCY DEPARTMENT OPTIMIZATION PROJECT
+
+1. Keep Emergency Department Model.doe and Emergency Department Optimization.pan in this same folder.
+2. Open Emergency Department Model.doe in Arena.
+3. Run > Check Model.
+4. Run the DOE once. Arena must create Emergency Department Model.p in this folder.
+5. Open Process Analyzer and open Emergency Department Optimization.pan.
+6. Select all seven scenarios and run them again. Ignore any cached values shown before the rerun.
+7. A scenario is feasible when Percent Diverted is 5 or less.
+8. Among feasible scenarios, select the one with the lowest Total ED Cost.
+
+PAN CONTROL ORDER
+ER Bed | Add P1 Doctors | Add P2 Doctors | Add P3 Doctors | Add Flex Doctors | Nurse Adj.
+
+SCENARIOS
+Baseline 26 Beds : 26, 0, 0, 0, 0, 0
+Lean 18 Beds     : 18, 0, 0, 0, 0, 0
+Lean 16 Beds     : 16, 0, 0, 0, 0, 0
+Lean 14 Beds     : 14, 0, 0, 0, 0, 0
+14 Beds Nurse -1 : 14, 0, 0, 0, 0, -1
+12 Beds P1 Flex  : 12, 1, 0, 0, 1, 0
+10 Beds Balanced : 10, 1, 1, 1, 1, 1
+
+The DOE is configured for 30 replications. Patient arrivals occur for 600 minutes, with a short drain period so patients already in the ED can finish.
