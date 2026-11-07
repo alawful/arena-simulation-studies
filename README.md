@@ -1,6 +1,6 @@
 # Arena simulation studies
 
-This repository collects three course projects I used to learn discrete-event simulation in Arena. They are small studies rather than production models, but they helped me practice turning a process description into queues, resources, and measurable outcomes.
+This repository collects four course projects I used to learn discrete-event simulation in Arena. They are small studies rather than production models, but they helped me practice turning a process description into queues, resources, inventory rules, and measurable outcomes.
 
 ## Included studies
 
@@ -15,6 +15,10 @@ This study looks at operating-room flow over longer simulation runs. The include
 ### Flow shop
 
 The flow-shop model explores how jobs move through a sequence of workstations. The saved runs show how changes in the setup affect queues and utilization.
+
+### Inventory and production
+
+This model follows customer demand against on-hand inventory and triggers batch replenishment when stock falls below a threshold. Its folder contains only the Arena model and a short explanation; generated runtime files were excluded.
 
 ## Files
 
