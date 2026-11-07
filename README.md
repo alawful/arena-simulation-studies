@@ -25,9 +25,9 @@ This model follows customer demand against on-hand inventory and triggers batch 
 - `.doe` — Arena models.
 - `.pan` — Process Analyzer scenarios.
 - `.png` — selected result views.
-- `FlowShop_Report.docx` — the original course report for the flow-shop model.
+- Each study folder includes either a short Markdown note or representative result images.
 
-Arena is required to open and run the model files. Generated databases and temporary output files are intentionally not included.
+Arena is required to open and run the model files. Submitted reports, student identifiers, generated databases, and temporary output files are intentionally not included.
 
 ## Scope
 
